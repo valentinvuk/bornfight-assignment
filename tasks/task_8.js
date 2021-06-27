@@ -50,7 +50,8 @@ let helper = [
 
 let result = helper.filter((car) => car.name !== "Mazda 3");
 
-console.log(data); //ostaje isti
+console.log(data);
+console.log("----------------------------------------------");
 console.log(result);
 /* [
   {

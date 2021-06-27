@@ -8,7 +8,8 @@ const result = data.map((car) => {
   return car;
 });
 
-console.log(data); //ostaje isti
+console.log(data);
+console.log("----------------------------------------------");
 console.log(result);
 /* [
   {

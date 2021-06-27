@@ -23,7 +23,7 @@ data.map((car) => {
 console.log(data);
 //meni bi ispisivalo da je engine za porschea [Object,Object] pa sam trebao ovaj dodatan ispis da se
 //uvjerim
-console.log(data.filter((car) => car.name === "Porsche 911 turbo")[0].engine);
+console.log(data.find((car) => car.name === "Porsche 911 turbo").engine);
 /* [
   {
     power: 427,
